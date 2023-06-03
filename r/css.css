@@ -39,7 +39,10 @@ body {
     line-height: 26px;
     letter-spacing: 0.05em;
     color: rgba(31,63,104,.6);
+<<<<<<< HEAD
 /*    position: relative;*/
+=======
+>>>>>>> 27f9049b287a25b8a4bb5f84cd8b2c78657b3bc0
     min-width: 375px;
 }
 header {
