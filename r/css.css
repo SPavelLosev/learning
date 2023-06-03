@@ -335,7 +335,28 @@ background: linear-gradient(89.99deg, #1F3F68 3.62%, rgba(31, 63, 104, 0.37) 97.
     background: url('girlpage2.jpg') top no-repeat;
     display: block; 
     box-sizing: border-box;
+    padding-top: 181px;
 }
+.group {
+    height: 800px;
+    width: 540px;
+    background: url('group.png') top no-repeat;
+    display: block; 
+    box-sizing: border-box;
+    margin-top: -57px;
+}
+.contacts2 {
+
+    width: 299px;
+}
+/*.group4 {
+    height: px;
+    width: 299px;
+    background: url('group4.png') top no-repeat;
+    display: block; 
+    box-sizing: border-box;
+    padding-left: 299px;
+}*/
 
 /* adaptiv */
 
