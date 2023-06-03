@@ -346,11 +346,34 @@ background: linear-gradient(89.99deg, #1F3F68 3.62%, rgba(31, 63, 104, 0.37) 97.
     margin-top: -57px;
 }
 .contacts2 {
-
+    height: 107px;
     width: 299px;
+    background: url('group4.png') top no-repeat;
+    display: block; 
+    box-sizing: border-box;
+    padding-left: 299px;
+    margin-top: 45px;
+}
+.contacts3 {
+    height: 122px;
+    width: 180px;
+    background: url('group14.png') top no-repeat;
+    display: block; 
+    box-sizing: border-box;
+    padding-left: 180px;
+    margin-top: 45px;
+}
+.contacts4 {
+    height: 122px;
+    width: 210px;
+    background: url('group10.png') top no-repeat;
+    display: block; 
+    box-sizing: border-box;
+    padding-left: 210px;
+    margin-top: 45px;
 }
 /*.group4 {
-    height: px;
+    height: 107px;
     width: 299px;
     background: url('group4.png') top no-repeat;
     display: block; 
