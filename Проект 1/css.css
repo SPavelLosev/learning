@@ -1,0 +1,262 @@
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/Oswald-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/Oswald-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/Oswald-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-display: swap;
+}
+
+body {
+    margin: 0;
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-style: normal;
+}
+
+header {
+    height: 890px;
+}
+
+footer {
+    height: 181px;
+    background: #f7654a;
+    color: #fff;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    padding: 33px 0 45px;
+    margin: 0;
+}
+
+main {
+    height: 931px;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.top {
+    height: 740px;
+    padding-top: 30px;
+    box-sizing: border-box;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    background: linear-gradient(0deg, rgba(64, 65, 73, 0.9), rgba(64, 65, 73, 0.9)), url("header_bg.jpg") center no-repeat, #404149;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.navigation-logo-link {
+    display: block;
+    width: 60px;
+    height: 50px;
+    text-decoration: none;
+}
+
+.navigation-burger {
+    display: block;
+    border: none;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.navigation-burger-logo {
+    display: block;
+}
+
+.top-title {
+    margin: 48px auto 20px;
+    width: 737px;
+    font-size: 64px;
+    line-height: 95px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.top-description {
+    width: 734px;
+    margin: 0 auto 170px;
+    font-style: regular;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.menu {
+    box-sizing: border-box;
+    height: 300px;
+    width: 1110px;
+    background: #f7f7f7;
+    margin: -150px auto 0;
+    text-align: center;
+    padding: 57px 130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-flex {
+    display: inline-block;
+    vertical-align: top;
+    width: 190px;
+    height: 186px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.menu-flex-digits {
+    margin: 0 0 25px 0;
+    padding: 0;
+    height: 86px;
+    font-size: 72px;
+    line-height: 107px;
+    color: #F7654A;
+}
+
+.menu-flex-years {
+    margin: 0 0 10px 0;
+    height: 43px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+}
+
+.menu-flex-onmarket {
+    margin: 5px 0;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #999999;
+}
+
+section {
+    margin: 0;
+    padding: 100px 0 150px;
+    height: 681px;
+}
+
+h2 {
+    padding: 0;
+    margin: 0 auto 50px;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+li {
+    width: 350px;
+}
+
+li:not(:last-child) {
+    margin-right: 30px;
+}
+
+li img {
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 60px;
+}
+
+section h3 {
+    font-size: 24px;
+    line-height: 36px;
+    margin: 0 0 15px;
+}
+
+section p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+footer button {
+    position: relative;
+    margin: 40px auto;
+    float: right;
+    width: 175px;
+    height: 49px;
+    border: none;
+    padding: 14px 25px;
+    background: #fff;
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    cursor: pointer;
+    text-align: right;
+}
+
+footer button::before {
+    position: absolute;
+    content: "";
+    width: 18px;
+    height: 21px;
+    display: block;
+    background: url(.svg) center no-repeat;
+}
+
+footer h3 {
+    padding: 0;
+    margin: 0 0 20px;
+    height: 57px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
+
+footer p {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+}
