@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>ЗАГАДКА</title>
+        
+        <meta charset="utf-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <style>
+            button {
+                display: block;
+                margin: 270px auto;
+                width: 770px;
+                height: 70px;
+                font: bold 24px Arial;
+                color: #0000FF;
+                background-color: #30d5c8;
+            }
+        </style>
+        
+        <script>
+            function riddle() {
+                let prize = 'Да';
+                let count = 0;
+                for (;;) {
+                count++;
+                let variant = prompt('ХОТИТЕ СОЛНЦЕ, МОРЕ, ПЛЯЖ?');
+                if (variant == 'хватит') return;
+                if (variant == 'ДА') {
+                alert('ВСЕ ХОТЯТ!');
+                break;
+                } 
+                if (variant != prize) {
+                alert('Не правильно');
+                continue;
+                }
+                if (variant == prize) {
+                alert('Я ТОЖЕ! СОВЕРШЕННО ВЕРНО!')
+                break;
+                }
+                }
+                alert(`Вы угадали! Потрачено: ${count} попытки`);
+            }
+        </script>
+    </head>
+    
+    <body>
+        <button type="button" onclick="riddle();">ЗАГАДКА</button>
+    </body>
+</html>
